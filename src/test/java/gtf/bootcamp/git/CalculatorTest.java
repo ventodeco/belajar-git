@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 class CalculatorTest {
   @Test
-  void testAddition_shouldSuccess() {
+  void testAddition_shouldSuccess_testing() {
     assertEquals(Calculator.add(2, 3), 5);
   }
 }
