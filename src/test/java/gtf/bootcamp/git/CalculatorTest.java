@@ -8,6 +8,6 @@ class CalculatorTest {
   @Test
   void testAddition_shouldSuccess_testing() {
     assertEquals(Calculator.add(2, 3), 5);
-    assertEquals(Calculator.add(5, 3), 8);
+    assertEquals(Calculator.add(1, 1), 2);
   }
 }
